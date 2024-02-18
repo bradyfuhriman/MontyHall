@@ -8,6 +8,6 @@ Your initial assumption may be that since there are two unopened doors, one with
 you have a 50/50 chance of choosing the car and therefore it doesn't matter if you switch. This is false.
 
 Explanation: Switching your choice will reverse the potential outcome -- if you previously chose the goat, 
-you now get the car, and vice versa. It's more likely than not that you chose the wrong door in the beginning 
+you now get the car, and vice versa. It's more likely that you chose the wrong door in the beginning 
 (two wrong doors, one right door), so switching is more likely to have the desired outcome.
 
