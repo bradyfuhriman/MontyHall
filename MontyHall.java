@@ -1,9 +1,9 @@
 import java.util.Random;
 
 public class MontyHall {
-    private char[] doors;
-    private char car = 'C';
-    private char goat = 'G';
+    private final char[] doors;
+    private final char car = 'C';
+    private final char goat = 'G';
 
     public MontyHall() {
         doors = new char[3];
@@ -35,7 +35,7 @@ public class MontyHall {
         return index;
     }
 
-    public int switchChoice(int a, int b) {
+    public int otherDoor(int a, int b) {
         int newChoice = 0;
         for (int i = 0; i < doors.length; i++) {
             if (!(doors[i] == a || doors[i] == b)) {
