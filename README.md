@@ -7,8 +7,7 @@ This program was made to demonstrate the Monty Hall problem. For those unfamilia
 Your initial assumption may be that since there are two unopened doors, one with a car and one without, 
 you have a 50/50 chance of choosing the car and therefore it doesn't matter if you switch. This is false.
 
-Explanation: The host will never choose the door you chose initially, and the door the host chooses will 
-always be a goat. This means the remaining two doors will always be a goat and a car. Switching your choice
-will reverse the change you made -- if you previously chose the goat, you now get the car, and vice versa.
-It's more likely that you chose the wrong door in the beginning (two wrong doors, one right door), so
-you are more likely to choose the right door if you switch.
+Explanation: Switching your choice will reverse the change you made -- if you previously chose the goat, 
+you now get the car, and vice versa. It's more likely that you chose the wrong door in the beginning 
+(two wrong doors, one right door), so you are more likely to choose the right door if you switch.
+
