@@ -6,10 +6,11 @@ public class Main {
         int wonChanged = 0;
         int lostChanged = 0;
         int passes = 100000;
+        int choice;
 
         for (int i = 0; i < passes; i++) {
             MontyHall problem = new MontyHall();
-            int choice = problem.getRandom();
+            choice = problem.getRandom();
 
             if (problem.isCar(choice)) {
                 won++;
@@ -20,8 +21,8 @@ public class Main {
 
         for (int i = 0; i < passes; i++) {
             MontyHall problem = new MontyHall();
-            int choice = problem.getRandom();
-            int hostChoice = problem.hostChoice();
+            choice = problem.getRandom();
+            int hostChoice = problem.hostChoice(choice);
 
             // Choice is changed
             choice = problem.otherDoor(choice, hostChoice);

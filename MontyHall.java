@@ -12,7 +12,7 @@ public class MontyHall {
         int index = getRandom();
         doors[index] = car;
 
-        // Puts goats behind the rest
+        // Puts goats behind the other two doors
         for (int i = 0; i < doors.length; i++) {
             if (doors[i] != car) {
                 doors[i] = goat;
@@ -22,23 +22,24 @@ public class MontyHall {
 
     public int getRandom() {
         Random rand = new Random();
-        return rand.nextInt(2) + 1;
+        return rand.nextInt(3);
     }
 
-    public int hostChoice() {
+    public int hostChoice(int choice) {
         int index = getRandom();
 
-        // Ensures the host opens a goat door
-        while (doors[index] != goat) {
+        while (index == choice || doors[index] != goat) {
             index = getRandom();
         }
         return index;
     }
 
+    // array of characters
+    //
     public int otherDoor(int a, int b) {
         int newChoice = 0;
         for (int i = 0; i < doors.length; i++) {
-            if (!(doors[i] == a || doors[i] == b)) {
+            if (!(i == a || i == b)) {
                 newChoice = i;
             }
         }
@@ -49,4 +50,3 @@ public class MontyHall {
         return (doors[i] == car);
     }
 }
-
