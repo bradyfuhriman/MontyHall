@@ -4,8 +4,8 @@ This program was made to demonstrate the Monty Hall problem. For those unfamilia
 > opens another door, say No. 3, which has a goat. He then asks, "Do you want to pick door No. 2?"
 > Is it to your advantage to switch your choice?
 
-Your initial assumption may be that since there are two unopened doors, one with a car and one without, 
-you have a 50/50 chance of getting the car and therefore it doesn't matter if you switch. This is false.
+A common misconception is that since there are two unopened doors, one with a car and one without, 
+you have a 50/50 chance of winning and therefore it doesn't matter if you switch. In reality, switching actually doubles your chances of winning.
 
 Program output:
 
