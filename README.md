@@ -10,6 +10,8 @@ you have a 50/50 chance of winning and therefore it doesn't matter if you switch
 Program output:
 
 ```
+1,000,000 tests were done for each case. These are the results:
+
 Games where initial choice was changed: 
 Won: 66%
 Lost: 33%
