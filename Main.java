@@ -34,7 +34,7 @@ public class Main {
             }
         }
 
-        System.out.println("1,000,000 tests were done for each case. These are the results:\n");
+        System.out.println("100,000 tests were done for each case. These are the results:\n");
         System.out.println("Games where initial choice was changed: " +
                 "\nWon: " + wonChanged / (passes / 100) + "%" +
                 "\nLost: " + lostChanged / (passes / 100) + "%");
