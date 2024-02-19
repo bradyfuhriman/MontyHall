@@ -8,6 +8,7 @@ public class Main {
         int passes = 100000;
         int choice;
 
+        // Games where choice is not changed
         for (int i = 0; i < passes; i++) {
             MontyHall problem = new MontyHall();
             choice = problem.getRandom();
@@ -19,13 +20,14 @@ public class Main {
             }
         }
 
+        // Games where choice is changed
         for (int i = 0; i < passes; i++) {
             MontyHall problem = new MontyHall();
             choice = problem.getRandom();
             int hostChoice = problem.hostChoice(choice);
 
             // Choice is changed
-            choice = problem.otherDoor(choice, hostChoice);
+            choice = problem.newDoor(choice, hostChoice);
 
             if (problem.isCar(choice)) {
                 wonChanged++;
@@ -34,6 +36,7 @@ public class Main {
             }
         }
 
+        // Output
         System.out.println("100,000 tests were done for each case. These are the results:\n");
         System.out.println("Games where initial choice was changed: " +
                 "\nWon: " + wonChanged / (passes / 100) + "%" +
