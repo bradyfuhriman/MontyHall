@@ -5,12 +5,12 @@ This program was made to demonstrate the Monty Hall problem. For those unfamilia
 > Is it to your advantage to switch your choice?
 
 A common misconception is that since there are two unopened doors, one with a car and one without, 
-you have a 50/50 chance of winning and therefore it doesn't matter if you switch. In reality, switching doubles your chances of winning.
+you have a 50/50 chance of winning and therefore it doesn't matter if you switch. In reality, switching doubles your odds of winning.
 
 Program output:
 
 ```
-1,000,000 tests were done for each case. These are the results:
+100,000 tests were done for each case. These are the results:
 
 Games where initial choice was changed: 
 Won: 66%
