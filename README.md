@@ -6,7 +6,7 @@ This program was made to demonstrate the Monty Hall problem.
 
 A common misconception is that since there are two unopened doors, one with a car and one without, you
 have a 50% chance of winning and it doesn't matter if you switch your choice. In reality, switching
-doubles your odds of winning.
+doubles your chances of winning.
 
 Program output:
 
