@@ -1,4 +1,4 @@
-This program was made to demonstrate the Monty Hall problem. For those unfamiliar with the paradox:
+This program was made to demonstrate the Monty Hall problem.
 > Suppose you're on a game show, and you're given the choice of three doors: Behind one door is a car;
 > behind the others, goats. You pick a door, say No. 1, and the host, who knows what's behind the doors,
 > opens another door, say No. 3, which has a goat. He then asks, "Do you want to pick door No. 2?"
